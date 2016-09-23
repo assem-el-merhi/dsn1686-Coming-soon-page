@@ -1,0 +1,97 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-family: 'Dosis', sans-serif;
+  font-family: 'Dancing Script', cursive;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  color: deepskyblue;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.picture {
+  border-radius: 80px;
+  border-bottom-style: dashed;
+  color: dodgerblue;
+}
+
+.social {
+  width: 25%;
+  display: inline-block;
+  padding: 1.2em;
+}
+
+.p {
+ font-family: 'Dosis', sans-serif;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: dodgerblue;
+}
+
+a:hover {
+  color: dodgerblue;
+}
+
+@media only screen and (min-width: 31em) {
+  body {
+    max-width: 20em;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 56em) {
+
+  h1 {
+    padding-top: 1.5em;
+  }
+
+  .picture {
+    float: left;
+    max-width: 18em;
+    padding: 1em;
+  }
+
+  body {
+    max-width: 40em;
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  .social {
+    width: 15%;
+  }
+
+  .social {
+    padding-left: 0;
+    width: 10%;
+  }
+
+}
